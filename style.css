@@ -1,0 +1,21 @@
+h3{
+    font-size: 25px;
+   }
+   body{
+       height: 100%;
+       margin: 0;
+     font-family: 'Combo', cursive;
+   }
+   .btn-success:hover{
+       background-color:crimson;
+   }
+   canvas{
+   animation-name: example;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   
+   }
+   @keyframes example{
+   from{box-shadow: 1px 1px 38px gold; }
+   to {box-shadow: 1px 1px 38px crimson;}
+   }
